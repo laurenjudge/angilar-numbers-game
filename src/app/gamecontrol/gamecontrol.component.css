@@ -1,0 +1,51 @@
+button {
+    display: inline-block;
+    border-radius: 27px; 
+    -moz-border-radius: 27px; 
+    -webkit-border-radius: 27px;
+    border: none;
+    padding: 10px 35px;
+    text-decoration: none;
+    background: #0069ed;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+    outline: none;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+.start {
+    background-color: #49AD5B;
+    margin-right: 20px;
+} 
+
+.start:hover,
+.start:focus {
+    background: #3f954e;
+}
+
+.stop {
+    background-color: #DC3545;
+}
+
+.stop:hover,
+.stop:focus {
+    background: #bd2130;
+}
